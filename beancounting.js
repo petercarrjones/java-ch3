@@ -1,21 +1,21 @@
 /*Bean Counting*/
 
 function countBs(string) {
-	var B = 0; 
-  for(var count=0; count < string.length; count++)
+	var bean = 0;
+  for(var count = 0; count < string.length; count++)
   if (string.charAt(count) == "B")
-  		B = (B + 1);
+  		bean = bean + 1; 
 
-  	  	return B;
+  	return bean;
 };
 console.log(countBs("BBC"));
 
 function countChar(string, N) {
-	var B = 0; 
+	var bean = 0; 
   for(var count=0; count < string.length; count++)
   if (string.charAt(count) == N)
-  		B = (B + 1);
+  		bean = bean + 1; 
 
-  	  	return B;
+  	return bean;
 };
-console.log(countChar("kakkerlak, "k"));
+console.log(countChar("kakkerlak", "k"));
