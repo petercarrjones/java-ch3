@@ -1,7 +1,6 @@
   var min = function(a,b){  
-   var result = 0;
-   Math.min(a, b) == result;
+   var result = Math.min(a, b);
   return result;
+  console.log(result);
 };
-min(10, 0);
-console.log(result);
+min(0, -10);
