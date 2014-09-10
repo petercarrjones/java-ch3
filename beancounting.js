@@ -1,0 +1,5 @@
+/*Bean Counting*/
+
+function countBs() {
+	
+}
